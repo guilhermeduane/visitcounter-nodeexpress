@@ -13,7 +13,6 @@ This project demonstrates a simple page visit counter built using Node.js and Ex
 To run this project, you need the following installed:
 
 - **Docker**: [Install Docker](https://www.docker.com/get-started)
-- **Docker Compose**: [Install Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Getting Started
 
