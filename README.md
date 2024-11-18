@@ -7,7 +7,6 @@ This project demonstrates a simple page visit counter built using Node.js and Ex
 - **Node.js and Express**: Backend server to handle HTTP requests and serve the visit count.
 - **Docker**: Containerize the application for easy deployment.
 - **Docker Compose**: Simplifies multi-container Docker applications, in this case, for orchestrating the app and any required services (e.g., database, cache).
-- **Persistent visit count**: Uses a simple file or database to persist the count across container restarts.
 
 ## Prerequisites
 
@@ -23,3 +22,9 @@ To run this project, you need the following installed:
    ```bash
    git clone https://github.com/yourusername/node-express-page-visits-counter.git
    cd node-express-page-visits-counter
+
+2. **Run Docker Compose command to build and run:**
+
+   ```bash
+   docker-compose up --build
+   
